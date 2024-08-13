@@ -84,7 +84,7 @@ The project uses the following MySQL schema:
 git clone https://github.com/yourusername/customer-management-system.git
 cd customer-management-system
 ```
-2 **Set up the virtual environment:**
+2. **Set up the virtual environment:**
 
 ```bash
 python -m venv venv
