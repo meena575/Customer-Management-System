@@ -138,5 +138,5 @@ The project uses the following MySQL schema:
     └── static/                # Static files (CSS, JS, images)
     ```
 ## Project Demo Video
-  [Watch Demo Video]("https://drive.google.com/file/d/1er3oZc8F32bR5MhuuBVv_ZAhCp8SSY1W/view?usp=sharing")
+  [Watch Demo Video](https://drive.google.com/file/d/1er3oZc8F32bR5MhuuBVv_ZAhCp8SSY1W/view?usp=sharing)
 
