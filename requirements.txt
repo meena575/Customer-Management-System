@@ -1,0 +1,14 @@
+fpdf==1.7.2
+google-auth-oauthlib==1.0.0
+google-api-python-client==2.83.0
+pandas==2.0.3
+streamlit==1.25.0
+twilio==8.4.0
+mysql-connector-python==8.1.0
+PyOTP==2.9.0
+plotly==5.15.0
+matplotlib==3.7.2
+reportlab==4.0.4
+streamlit-option-menu==1.0.1
+st-aggrid==0.3.4
+bcrypt==4.0.1
