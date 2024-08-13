@@ -80,56 +80,56 @@ The project uses the following MySQL schema:
 ## Installation
 1. **Clone the repository:**
 
-```bash
-git clone https://github.com/yourusername/customer-management-system.git
-cd customer-management-system
-```
+    ```bash
+    git clone https://github.com/yourusername/customer-management-system.git
+    cd customer-management-system
+    ```
 2. **Set up the virtual environment:**
-
-```bash
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-```
+    
+    ```bash
+    python -m venv venv
+    source venv/bin/activate  # On Windows: venv\Scripts\activate
+    ```
 3. **Install dependencies:**
 
-```bash
-pip install -r requirements.txt
-```
+    ```bash
+    pip install -r requirements.txt
+    ```
 4. **Set up the MySQL database:**
 
   - Create the database using the provided schema.sql file.
   - Update the database connection settings in the project   
-  configuration file.
+    configuration file.
 5. **Run the application:**
 
-```bash
-streamlit run app.py
-```
+    ```bash
+    streamlit run app.py
+    ```
 ## Usage
 - Admin and Staff:
 
-  - Access the dashboard, manage clients, services, invoices, and 
-    staff.
-  - Update profiles and change passwords.
+    - Access the dashboard, manage clients, services, invoices, and 
+      staff.
+    - Update profiles and change passwords.
 - Clients:
 
-  - Sign up, subscribe to services, manage payments, and view   
-    invoices.
-  - Update personal profiles and change passwords.
-## Project Structure
-```
-customer-management-system/
-│
-├── app.py                 # Main Streamlit application
-├── requirements.txt       # Python dependencies
-├── README.md              # Project documentation
-├── schema.sql             # MySQL database schema
-├── methods.py             # Common methods used across the project
-├── admin/                 # Admin-related functionality
-├── staff/                 # Staff-related functionality
-├── client/                # Client-related functionality
-├── templates/             # HTML templates (if any)
-└── static/                # Static files (CSS, JS, images)
-```
+    - Sign up, subscribe to services, manage payments, and view   
+      invoices.
+    - Update personal profiles and change passwords.
+  ## Project Structure
+    ```
+    customer-management-system/
+    │
+    ├── app.py                 # Main Streamlit application
+    ├── requirements.txt       # Python dependencies
+    ├── README.md              # Project documentation
+    ├── schema.sql             # MySQL database schema
+    ├── methods.py             # Common methods used across the project
+    ├── admin/                 # Admin-related functionality
+    ├── staff/                 # Staff-related functionality
+    ├── client/                # Client-related functionality
+    ├── templates/             # HTML templates (if any)
+    └── static/                # Static files (CSS, JS, images)
+    ```
 
 
