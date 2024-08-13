@@ -122,7 +122,7 @@ The project uses the following MySQL schema:
     - Sign up, subscribe to services, manage payments, and view   
       invoices.
     - Update personal profiles and change passwords.
-  ## Project Structure
+## Project Structure
     ```
     customer-management-system/
     │
