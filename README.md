@@ -16,27 +16,28 @@ This project is a comprehensive Customer Management System (CMS) built with a fo
 Common Features for Admin and Staff
 1. **Dashboard**
 
-- Overview of clients, users, services, total sales amount, and invoices.
-- Graphical representation of clients, users, invoices, and services.
+  - Overview of clients, users, services, total sales amount, and invoices.
+  - Graphical representation of clients, users, invoices, and services.
 2. **Client Management**
-
-- Add, view, update, and delete clients.
-- View unpaid clients and send payment reminders.
-  Note: Staff cannot delete clients.
+  
+  - Add, view, update, and delete clients.
+  - View unpaid clients and send payment reminders.
+    Note: Staff cannot delete clients.
 3. **Service Management**
-
-- CRUD operations for services.
-- Send SMS notifications to clients when new services are added.
-  Note: Staff cannot delete services.
+  
+  - CRUD operations for services.
+  - Send SMS notifications to clients when new services are added.
+    Note: Staff cannot delete services.
 4. **Invoice Management**
-
-- Generate, filter, and manage invoices.
-- Download or send invoice PDFs via email with options for TO, CC, BCC.
+  
+  - Generate, filter, and manage invoices.
+  - Download or send invoice PDFs via email with options for TO, CC, 
+    BCC.
 5. **Profile Management**
 
-- Update logged-in admin/staff details.
+  - Update logged-in admin/staff details.
 6. **Settings**
-- Update admin/staff password securely.
+  - Update admin/staff password securely.
 ## Additional Admin-Only Features
 1. **Staff Management**
   - CRUD operations for staff members.
@@ -132,12 +133,5 @@ customer-management-system/
 ├── templates/             # HTML templates (if any)
 └── static/                # Static files (CSS, JS, images)
 ```
-Screenshots
-Include screenshots or GIFs of your application here.
 
-Contributing
-If you would like to contribute to this project, please fork the repository and submit a pull request.
-
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
 
