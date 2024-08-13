@@ -46,74 +46,79 @@ Common Features for Admin and Staff
     - 2FA via SMS for additional security.
 2. **Dashboard**
 
-Visual overview of subscribed services, invoices, and service status.
-Services List
+  - Visual overview of subscribed services, invoices, and service status.
+  - 
+3. **Services List**
 
-Browse and subscribe to available services.
-Select payment methods and receive payment receipts via email and SMS.
-Manage partial payments and service subscriptions.
-Invoice Management
+  - Browse and subscribe to available services.
+  - Select payment methods and receive payment receipts via email and 
+    SMS.
+  - Manage partial payments and service subscriptions.
+    
+4. **Invoice Management**
+  - View, download, and email invoices.
+    
+5. **Profile Management**
 
-View, download, and email invoices.
-Profile Management
+  - Update personal details.
+6. **Settings**
 
-Update personal details.
-Settings
-
-Update password securely.
-Technologies Used
-Backend: MySQL, SQL, Python
-Frontend: Streamlit
-Others: Twilio (for SMS notifications), Google API (for email services), ReportLab (for PDF generation)
-Database Schema
+  - Update password securely.
+## Technologies Used
+  - **Backend:** MySQL, SQL, Python
+  - **Frontend:** Streamlit
+  - **Others:** Twilio (for SMS notifications), Google API (for email services), ReportLab (for PDF generation)
+## Database Schema
 The project uses the following MySQL schema:
 
-services
-users
-invoices
-client_services
-subscriptions_table
+- services
+- users
+- invoices
+- client_services
+- subscriptions_table
 See the schema.sql file for detailed table definitions and relationships.
 
-Installation
-Clone the repository:
+## Installation
+1. **Clone the repository:**
 
-bash
-Copy code
+```bash
 git clone https://github.com/yourusername/customer-management-system.git
 cd customer-management-system
-Set up the virtual environment:
+```
+2 **Set up the virtual environment:**
 
-bash
-Copy code
+```bash
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
-Install dependencies:
+```
+3. **Install dependencies:**
 
-bash
-Copy code
+```bash
 pip install -r requirements.txt
-Set up the MySQL database:
+```
+4. **Set up the MySQL database:**
 
-Create the database using the provided schema.sql file.
-Update the database connection settings in the project configuration file.
-Run the application:
+  - Create the database using the provided schema.sql file.
+  - Update the database connection settings in the project   
+  configuration file.
+5. **Run the application:**
 
-bash
-Copy code
+```bash
 streamlit run app.py
-Usage
-Admin and Staff:
+```
+## Usage
+- Admin and Staff:
 
-Access the dashboard, manage clients, services, invoices, and staff.
-Update profiles and change passwords.
-Clients:
+  - Access the dashboard, manage clients, services, invoices, and 
+    staff.
+  - Update profiles and change passwords.
+- Clients:
 
-Sign up, subscribe to services, manage payments, and view invoices.
-Update personal profiles and change passwords.
-Project Structure
-plaintext
-Copy code
+  - Sign up, subscribe to services, manage payments, and view   
+    invoices.
+  - Update personal profiles and change passwords.
+## Project Structure
+```
 customer-management-system/
 │
 ├── app.py                 # Main Streamlit application
@@ -126,6 +131,7 @@ customer-management-system/
 ├── client/                # Client-related functionality
 ├── templates/             # HTML templates (if any)
 └── static/                # Static files (CSS, JS, images)
+```
 Screenshots
 Include screenshots or GIFs of your application here.
 
