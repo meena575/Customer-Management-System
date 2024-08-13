@@ -64,9 +64,9 @@ Common Features for Admin and Staff
 
       - Update password securely.
 ## Technologies Used
-    - **Backend:** MySQL, SQL, Python
-    - **Frontend:** Streamlit
-    - **Others:** Twilio (for SMS notifications), Google API (for email services), ReportLab (for PDF generation)
+  - **Backend:** MySQL, SQL, Python
+  - **Frontend:** Streamlit
+  - **Others:** Twilio (for SMS notifications), Google API (for         email services), ReportLab (for PDF generation)
 ## Database Schema
 The project uses the following MySQL schema:
 
