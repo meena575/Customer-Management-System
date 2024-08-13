@@ -9,6 +9,7 @@ This project is a comprehensive Customer Management System (CMS) built with a fo
   - Installation
   - Usage
   - Project Structure
+  - Project Demo Video
  
 ## Features
 Common Features for Admin and Staff
@@ -64,9 +65,14 @@ Common Features for Admin and Staff
 
       - Update password securely.
 ## Technologies Used
-  - **Backend:** MySQL, SQL, Python
-  - **Frontend:** Streamlit
-  - **Others:** Twilio (for SMS notifications), Google API (for         email services), ReportLab (for PDF generation)
+
+  - **Backend**: MySQL, SQL, Python
+  - **Frontend**: Streamlit
+  - **Others**: 
+    - Twilio (for SMS notifications)
+    - Google API (for email services)
+    - ReportLab (for PDF generation)
+
 ## Database Schema
 The project uses the following MySQL schema:
 
@@ -77,7 +83,7 @@ The project uses the following MySQL schema:
   - subscriptions_table
   See the schema.sql file for detailed table definitions and relationships.
 
-## Installation
+## Installation and Setup
 1. **Clone the repository:**
 
     ```bash
@@ -131,5 +137,6 @@ The project uses the following MySQL schema:
     ├── templates/             # HTML templates (if any)
     └── static/                # Static files (CSS, JS, images)
     ```
+## Project Demo Video
 
 
