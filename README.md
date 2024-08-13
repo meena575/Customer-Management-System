@@ -82,7 +82,7 @@ The project uses the following MySQL schema:
   - client_services
   - subscriptions_table
   See the schema.sql file for detailed table definitions and relationships.
-
+<img src="cms-schema.png">
 ## Installation and Setup
 1. **Clone the repository:**
 
