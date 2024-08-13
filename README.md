@@ -37,45 +37,45 @@ Common Features for Admin and Staff
   6. **Settings**
       - Update admin/staff password securely.
 ## Additional Admin-Only Features
-1. **Staff Management**
-  - CRUD operations for staff members.
+  1. **Staff Management**
+      - CRUD operations for staff members.
 ## Client Features
-1. **User Authentication**
-    - Sign-up with one-factor or two-factor authentication (2FA).
-    - 2FA via SMS for additional security.
-2. **Dashboard**
+  1. **User Authentication**
+      - Sign-up with one-factor or two-factor authentication (2FA).
+      - 2FA via SMS for additional security.
+  2. **Dashboard**
 
-  - Visual overview of subscribed services, invoices, and service status.
-  - 
-3. **Services List**
+      - Visual overview of subscribed services, invoices, and service status.
 
-  - Browse and subscribe to available services.
-  - Select payment methods and receive payment receipts via email and 
-    SMS.
-  - Manage partial payments and service subscriptions.
+  3. **Services List**
+
+      - Browse and subscribe to available services.
+      - Select payment methods and receive payment receipts via email 
+        and SMS.
+      - Manage partial payments and service subscriptions.
     
-4. **Invoice Management**
-  - View, download, and email invoices.
+  4. **Invoice Management**
+      - View, download, and email invoices.
     
-5. **Profile Management**
+  5. **Profile Management**
 
-  - Update personal details.
-6. **Settings**
+      - Update personal details.
+  6. **Settings**
 
-  - Update password securely.
+      - Update password securely.
 ## Technologies Used
-  - **Backend:** MySQL, SQL, Python
-  - **Frontend:** Streamlit
-  - **Others:** Twilio (for SMS notifications), Google API (for email services), ReportLab (for PDF generation)
+    - **Backend:** MySQL, SQL, Python
+    - **Frontend:** Streamlit
+    - **Others:** Twilio (for SMS notifications), Google API (for email services), ReportLab (for PDF generation)
 ## Database Schema
 The project uses the following MySQL schema:
 
-- services
-- users
-- invoices
-- client_services
-- subscriptions_table
-See the schema.sql file for detailed table definitions and relationships.
+  - services
+  - users
+  - invoices
+  - client_services
+  - subscriptions_table
+  See the schema.sql file for detailed table definitions and relationships.
 
 ## Installation
 1. **Clone the repository:**
