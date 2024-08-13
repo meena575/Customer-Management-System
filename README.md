@@ -1,7 +1,7 @@
 # Customer Management System
 ## Overview
 This project is a comprehensive Customer Management System (CMS) built with a focus on streamlining client, service, invoice, and staff management for businesses. The system includes features for both admins and staff, with role-specific functionalities and an easy-to-use interface. The backend is powered by MySQL and Python, and the frontend is built using Streamlit.
-
+<img src="https://static.wixstatic.com/media/7ca22a_fd6a36254ce04d46a5a15d6c4c52526a~mv2.gif">
 ## Table of Contents
   - Features
   - Technologies Used
